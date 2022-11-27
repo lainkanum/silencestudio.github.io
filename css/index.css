@@ -1,0 +1,263 @@
+@font-face {
+	font-family: 'Comfortaa';
+	src: url('../fonts/Comfortaa-Regular.woff2') format('woff2');
+	font-weight: 1;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'minecraft';
+	src: url('../fonts/minecraft.eot');
+	src: local('☺'), url('../fonts/minecraft.woff') format('woff'), url('fonts/minecraft.ttf') format('truetype'), url('fonts/minecraft.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+body {
+    background-color: #111414;
+    color: #e1e5eb;
+}
+h1 {
+    font-family: Comfortaa;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 56px;
+    font-style: normal;
+    margin-bottom: 22px;
+}
+.banner {
+    width: 100%;
+    max-width: 1920px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    height: 793px;
+}
+.inner {
+    max-width: 640px;
+    margin: 128px 0;
+}
+* {
+    font-style: normal;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Comfortaa;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.text_banner {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -.2px;
+    font-weight: 500;
+    margin-bottom: 45px;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 22px;
+}
+.inner {
+    max-width: 640px;
+    margin: 128px 0;
+}
+.banner img {
+    pointer-events: none;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.content {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(180deg,#186ef0,#429ae7);
+}
+a:link { 
+    text-decoration: none;
+}
+body {
+    background-color: #111414;
+}
+.logo {
+    margin-right: 10px;
+}
+.navbar {
+    height: 81px;
+}
+.navbar-toggler {
+    border: 0;
+}
+.offcanvas-body, .container-fluid, nav, .offcanvas-title, .offcanvas-header {
+    background: #111414;
+}
+.container-fluid {
+    border-bottom: 1px solid #202224;
+}
+@media only screen and (max-width: 1264px) {
+    body._mobile_auth .container {
+    padding-bottom: 83px;
+    }
+}
+.wiki {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-gap: 32px;
+    gap: 32px;
+}
+@media only screen and (max-width: 1264px) {
+    .container {
+    padding: 22px;
+    width: 100%;
+    }
+}
+.container {
+    margin: 0 auto;
+    width: 1200px;
+    padding: 32px;
+}
+.nav-item {
+    height: 82px;
+}
+.nav-item:hover {
+    background-color: #3c3f42;
+}
+.nav-item a {
+    margin-top: 13.75px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.link-active {
+    color: #1d72f2;
+}
+.nav-active {
+    border-bottom: 2.5px solid #1d72f2;
+}
+.nav-notactive {
+    border-bottom: 2.5px solid rgba(0, 0, 0, 0);
+}
+.nav-link {
+    height: 82px;
+}
+@media (max-width: 768px) {
+    .nav-active {
+        display: none;
+    }
+}
+.navbar-brand {
+    font-family: 'minecraft';
+}
+footer {
+    margin: 0px 15px 0 15px;
+}
+.markdown_paragraph {
+    margin-top: 0;
+    margin-bottom: 16px;
+    word-break: break-word;
+}
+.text_16, .text_16_medium, .text_16_sbold {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+.vajno {
+    color: #0095FF;
+}
+@media (max-width: 576px) {
+    .main-content {
+        width: 375px;
+    }
+    .col .card-information {
+        width: 300px;
+    }
+    .col .card-information svg {
+        display: none;
+    }
+    .col .card-information img {
+        display: none;
+    }
+}
+.card-information {
+    width: 515px;
+    background-color: rgba(43, 43, 43, 0.419);
+    display: flex;
+    height: 300px;
+    padding: 17px;
+    margin-bottom: 20px;
+}
+.information-title {
+    color: #7EC6F9;
+}
+.information-png {
+    width: 146px;
+    height: 146px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+.carousel-inner {
+    margin-bottom: 40px;
+}
+.about {
+    margin-bottom: 40px;
+}
+h2 {
+    height: 30px;
+}
+.information {
+    width: 290px;
+}
+.cards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.buy {
+    color: #fff;
+    background-image: url(../assets/background.webp);
+    background-color: #1d72f2;
+    width: 100%;
+    max-width: 1920px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin-bottom: 0;
+}
+@media (max-width: 900px) {
+    .buy {
+        padding: 96px 64px;
+    }
+}
+.buy .btn {
+    height: 100px;
+    width: 400px;
+    font-weight: 900;
+}
+.btn-text {
+    font-size: 30px;
+}
+.buy-btn {
+    color: #fff;
+}
+.buy-btn:hover {
+    color: rgb(45, 45, 45);
+}
+.dropdown-menu {
+    background: #111414;
+    color: rgba(255, 255, 255, 0.55);
+}
+.dropdown-item {
+    color: rgba(255, 255, 255, 0.55);
+}
+.dropdown-item:hover {
+    background-color: #3c3f42;
+}

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="https://cdn.discordapp.com/attachments/1045315401686462525/1045710259043450922/server-icon.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/index.css">
+  <title>SilenceStudio</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark">
+    <div class="container-fluid">
+      <img src="https://cdn.discordapp.com/attachments/1045315401686462525/1045710259043450922/server-icon.png" class="logo" alt="Логотип SilenceStudio">
+      <a class="navbar-brand" href="#">Silence Studio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Навигация</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav flex-grow-1 justify-content-end pe-3">
+            <li class="nav-item">
+              <div class="nav-active"></div>
+              <a class="nav-link link-active" href="#">Главная страница</a>
+            </li>
+            <li class="nav-item">
+              <div class="nav-notactive"></div>
+              <a class="nav-link" href="rules.html">Правила</a>
+            </li>
+            <li class="nav-item">
+              <div class="nav-notactive"></div>
+              <a class="nav-link" href="#">Карта</a>
+            </li>
+            <li class="nav-item dropdown">
+              <div class="nav-notactive"></div>
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Контакты
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" target="_blank" href="https://discord.gg/vzhhFa43">Дискорд</a></li>
+                <li><a class="dropdown-item" target="_blank" href="https://vk.com/explosion_mc">ВК</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <div class="banner">
+      <div class="content">
+        <div class="inner">
+          <h1>Самый ламповый ванильный сервер.</h1>
+          <p class="text_banner">Выживайте, стройте города и находите друзей.<br>Без приватов, привилегий и лишних плагинов.</p>
+          <div class="buttons"><button class="btn btn-light"><a href="#about">О сервере</a></button><button class="btn"><a class="buy-btn" href="#buy">Проходка</a></button></div>
+          <p class="text_banner">Лицензионный Java Edition 1.19.2</p>
+        </div>
+      </div>
+      <img src="assets\banner.webp" alt="баннер">
+    </div>
+    <div class="container main-content row row-cols-1 row-cols-md-1 row-cols-lg-2">
+      <div class="col">
+        <div class="about">
+          <p>
+            <img srcset="https://img.icons8.com/emoji/96/house-with-garden.png" alt="Дом" style="width: 45px; height: 45px; margin-bottom: 20px;"> <span style="letter-spacing: normal; font-size: 24px;">› Что такое SilenceStudio?</span>
+            <span style=" font-size: 18px;"> <br> Это приватный сервер, с упором на <span class="vajno">Ванильную</span> составляющую и <span class="vajno">общение людей</span>. Открытый мир, приятная атмосфера и минимум ограничений ждут вас. 
+            <span class="vajno">Интересные ивенты</span>, не ломающие атмосферу ванильного майнкрафта - всё это сделает вашу игру ещё ярче и интересней. Выживайте, стройте, творите и заводите новые знакомства.</span>
+          </p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="screenshots" id="about">
+          <div id="carouselExampleIndicators" class="carousel slide" data-flickity-options='{ "wrapAround": true }' data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="2000">
+                <img src="https://cdn.discordapp.com/attachments/1045315401686462525/1045990161890160670/FhHDFkmqLcQ.jpg" class="d-block w-100" alt="Скриншот 1">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://cdn.discordapp.com/attachments/1045315401686462525/1045990162091491410/rclrOoV9Z_Q.jpg" class="d-block w-100" alt="Скриншот 2">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://cdn.discordapp.com/attachments/1045315401686462525/1045990162322169896/a2oAL48hiFI.jpg" class="d-block w-100" alt="Скриншот 3">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="cards row row-cols-1 row-cols-lg-2">
+        <div class="col">
+          <div class="card-information rounded-2">
+            <div class="row row-cols-1">
+              <h2 class="information-title col">Хостинг</h2>
+                <p class="text_16_medium information">Многие сервера закрываются от нехватки бюджета на оплату хостинга, но с нами такого не пройзойдет! Ведь наш хостинг куплен <span class="vajno">навсегда</span></p>
+              </div>
+              <svg width="120px" height="120px" class="information-png" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"> <rect x="238.345" y="105.931" style="fill:#464655;" width="35.31" height="370.759"/> <path style="fill:#5B5D6E;" d="M512,467.862v17.655c0,4.875-3.953,8.828-8.828,8.828H8.828c-4.875,0-8.828-3.953-8.828-8.828 v-17.655c0-4.875,3.953-8.828,8.828-8.828h494.345C508.047,459.034,512,462.987,512,467.862z"/> <path style="fill:#959CB3;" d="M502.465,123.586H9.535c-5.266,0-9.535-4.269-9.535-9.535V9.535C0,4.269,4.269,0,9.535,0h492.93 C507.731,0,512,4.269,512,9.535v104.516C512,119.317,507.731,123.586,502.465,123.586z"/> <g> <path style="fill:#707487;" d="M26.483,105.931L26.483,105.931c-4.875,0-8.828-3.953-8.828-8.828V26.483 c0-4.875,3.953-8.828,8.828-8.828l0,0c4.875,0,8.828,3.953,8.828,8.828v70.621C35.31,101.978,31.358,105.931,26.483,105.931z"/> <path style="fill:#707487;" d="M485.517,105.931L485.517,105.931c-4.875,0-8.828-3.953-8.828-8.828V26.483 c0-4.875,3.953-8.828,8.828-8.828l0,0c4.875,0,8.828,3.953,8.828,8.828v70.621C494.345,101.978,490.392,105.931,485.517,105.931z"/> </g> <path style="fill:#5B5D6E;" d="M445.793,52.966H66.207c-7.313,0-13.241-5.929-13.241-13.241l0,0c0-7.313,5.929-13.241,13.241-13.241 h379.586c7.313,0,13.241,5.929,13.241,13.241l0,0C459.034,47.037,453.106,52.966,445.793,52.966z"/> <g> <circle style="fill:#C3E678;" cx="445.793" cy="39.724" r="13.241"/> <circle style="fill:#C3E678;" cx="401.655" cy="39.724" r="13.241"/> </g> <g> <circle style="fill:#464655;" cx="357.517" cy="39.724" r="13.241"/> <circle style="fill:#464655;" cx="313.379" cy="39.724" r="13.241"/> <circle style="fill:#464655;" cx="269.241" cy="39.724" r="13.241"/> </g> <g> <path style="fill:#C7CFE2;" d="M300.138,97.103h150.069c4.875,0,8.828-3.953,8.828-8.828l0,0c0-4.875-3.953-8.828-8.828-8.828 H300.138c-4.875,0-8.828,3.953-8.828,8.828l0,0C291.31,93.151,295.263,97.103,300.138,97.103z"/> <path style="fill:#C7CFE2;" d="M61.793,97.103h150.069c4.875,0,8.828-3.953,8.828-8.828l0,0c0-4.875-3.953-8.828-8.828-8.828 H61.793c-4.875,0-8.828,3.953-8.828,8.828l0,0C52.966,93.151,56.918,97.103,61.793,97.103z"/> </g> <circle style="fill:#00D2FF;" cx="256" cy="88.276" r="17.655"/> <path style="fill:#959CB3;" d="M502.465,406.069H9.535C4.269,406.069,0,401.8,0,396.534V292.018c0-5.266,4.269-9.535,9.535-9.535 h492.93c5.266,0,9.535,4.269,9.535,9.535v104.516C512,401.8,507.731,406.069,502.465,406.069z"/> <g> <path style="fill:#707487;" d="M26.483,388.414L26.483,388.414c-4.875,0-8.828-3.953-8.828-8.828v-70.621 c0-4.875,3.953-8.828,8.828-8.828l0,0c4.875,0,8.828,3.953,8.828,8.828v70.621C35.31,384.461,31.358,388.414,26.483,388.414z"/> <path style="fill:#707487;" d="M485.517,388.414L485.517,388.414c-4.875,0-8.828-3.953-8.828-8.828v-70.621 c0-4.875,3.953-8.828,8.828-8.828l0,0c4.875,0,8.828,3.953,8.828,8.828v70.621C494.345,384.461,490.392,388.414,485.517,388.414z"/> </g> <path style="fill:#5B5D6E;" d="M445.793,335.448H66.207c-7.313,0-13.241-5.929-13.241-13.241l0,0 c0-7.313,5.929-13.241,13.241-13.241h379.586c7.313,0,13.241,5.929,13.241,13.241l0,0 C459.034,329.519,453.106,335.448,445.793,335.448z"/> <g> <circle style="fill:#C3E678;" cx="445.793" cy="322.207" r="13.241"/> <circle style="fill:#C3E678;" cx="401.655" cy="322.207" r="13.241"/> </g> <g> <circle style="fill:#464655;" cx="357.517" cy="322.207" r="13.241"/> <circle style="fill:#464655;" cx="313.379" cy="322.207" r="13.241"/> <circle style="fill:#464655;" cx="269.241" cy="322.207" r="13.241"/> </g> <g> <path style="fill:#C7CFE2;" d="M300.138,379.586h150.069c4.875,0,8.828-3.953,8.828-8.828l0,0c0-4.875-3.953-8.828-8.828-8.828 H300.138c-4.875,0-8.828,3.953-8.828,8.828l0,0C291.31,375.634,295.263,379.586,300.138,379.586z"/> <path style="fill:#C7CFE2;" d="M61.793,379.586h150.069c4.875,0,8.828-3.953,8.828-8.828l0,0c0-4.875-3.953-8.828-8.828-8.828 H61.793c-4.875,0-8.828,3.953-8.828,8.828l0,0C52.966,375.634,56.918,379.586,61.793,379.586z"/> </g> <circle style="fill:#00D2FF;" cx="256" cy="370.759" r="17.655"/> <path style="fill:#959CB3;" d="M502.465,264.828H9.535c-5.266,0-9.535-4.269-9.535-9.535V150.776c0-5.266,4.269-9.535,9.535-9.535 h492.93c5.266,0,9.535,4.269,9.535,9.535v104.516C512,260.558,507.731,264.828,502.465,264.828z"/> <g> <path style="fill:#707487;" d="M26.483,247.172L26.483,247.172c-4.875,0-8.828-3.953-8.828-8.828v-70.621 c0-4.875,3.953-8.828,8.828-8.828l0,0c4.875,0,8.828,3.953,8.828,8.828v70.621C35.31,243.22,31.358,247.172,26.483,247.172z"/> <path style="fill:#707487;" d="M485.517,247.172L485.517,247.172c-4.875,0-8.828-3.953-8.828-8.828v-70.621 c0-4.875,3.953-8.828,8.828-8.828l0,0c4.875,0,8.828,3.953,8.828,8.828v70.621C494.345,243.22,490.392,247.172,485.517,247.172z"/> </g> <path style="fill:#5B5D6E;" d="M445.793,194.207H66.207c-7.313,0-13.241-5.929-13.241-13.241l0,0 c0-7.313,5.929-13.241,13.241-13.241h379.586c7.313,0,13.241,5.929,13.241,13.241l0,0 C459.034,188.278,453.106,194.207,445.793,194.207z"/> <g> <circle style="fill:#C3E678;" cx="445.793" cy="180.966" r="13.241"/> <circle style="fill:#C3E678;" cx="401.655" cy="180.966" r="13.241"/> </g> <g> <circle style="fill:#464655;" cx="357.517" cy="180.966" r="13.241"/> <circle style="fill:#464655;" cx="313.379" cy="180.966" r="13.241"/> <circle style="fill:#464655;" cx="269.241" cy="180.966" r="13.241"/> </g> <g> <path style="fill:#C7CFE2;" d="M300.138,238.345h150.069c4.875,0,8.828-3.953,8.828-8.828l0,0c0-4.875-3.953-8.828-8.828-8.828 H300.138c-4.875,0-8.828,3.953-8.828,8.828l0,0C291.31,234.392,295.263,238.345,300.138,238.345z"/> <path style="fill:#C7CFE2;" d="M61.793,238.345h150.069c4.875,0,8.828-3.953,8.828-8.828l0,0c0-4.875-3.953-8.828-8.828-8.828 H61.793c-4.875,0-8.828,3.953-8.828,8.828l0,0C52.966,234.392,56.918,238.345,61.793,238.345z"/> </g> <circle style="fill:#00D2FF;" cx="256" cy="229.517" r="17.655"/> <rect x="203.034" y="459.034" style="fill:#464655;" width="105.931" height="35.31"/> <path style="fill:#707487;" d="M282.483,512h-52.966c-4.875,0-8.828-3.953-8.828-8.828v-52.966c0-4.875,3.953-8.828,8.828-8.828 h52.966c4.875,0,8.828,3.953,8.828,8.828v52.966C291.31,508.047,287.358,512,282.483,512z"/> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> </svg>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card-information rounded-2">
+            <div class="row row-cols-1">
+              <h4 class="information-title col">Мы - большая команда</h2>
+                <p width class="text_16_medium information">Нашим сервером управляет целая <span class="vajno">команда</span>, каждый член которой выполняет свою работу: главный администратор, кодеры, тех. администраторы, модерация.</p>
+              </div>
+              <img src="   https://cdn-icons-png.flaticon.com/512/2731/2731636.png " width="146" height="146" alt="" class="information-png">
+          </div>
+        </div>
+        <div class="col">
+          <div class="card-information rounded-2">
+            <div class="row row-cols-1">
+              <h4 class="information-title col">Наши фишки</h2>
+                <p width class="text_16_medium information">Мы регулярно делаем обновления, ивенты чтобы стать лучше. Однако, главная находка - это конечно же <span class="vajno">золотое коммьюнити</span>.</p>
+              </div>
+              <img src="https://img.icons8.com/color/200/goal--v1.png" width="146" height="146" alt="" class="information-png">
+          </div>
+        </div>
+        <div class="col">
+          <div class="card-information rounded-2">
+            <div class="row row-cols-1">
+              <h4 class="information-title col">Коммьюнити</h2>
+                <p width class="text_16_medium information">Наше сообщество проводит регулярные ивенты, общаются, торгуют. Наш сервер можно полноценно называть <span class="vajno">социальной сетью</span>.</p>
+              </div>
+              <img src="https://cdn-icons-png.flaticon.com/512/8088/8088864.png" width="146" height="146" alt="" class="information-png">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="buy">
+      <form action="https://www.donationalerts.com/" method="get" target="_blank">
+        <button id="buy" class="btn btn-light" type="submit"> <span class="btn-text">Купить проходку</span></button>
+      </form>
+    </div>
+  </main>
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+      </a>
+      <span class="mb-3 mb-md-0 text-muted">© 2022 Silence Studio</span>
+    </div>
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a class="text-muted" target="_blank" href="https://discord.gg/gpWswqYc"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path fill="#8c9eff" d="M42,45l-9-7.001L34,41H10c-2.761,0-5-2.238-5-5V10c0-2.762,2.239-5,5-5h27c2.762,0,5,2.238,5,5V45z"/><path fill="#fff" d="M32.59,16.24c0,0-2.6-2.01-5.68-2.24l-0.27,0.55c2.78,0.67,4.05,1.64,5.38,2.83 C29.73,16.21,27.46,15,23.5,15s-6.23,1.21-8.52,2.38c1.33-1.19,2.85-2.27,5.38-2.83L20.09,14c-3.23,0.31-5.68,2.24-5.68,2.24 S11.5,20.43,11,28.62c2.94,3.36,7.39,3.38,7.39,3.38l0.92-1.23c-1.57-0.54-3.36-1.51-4.9-3.27c1.84,1.38,4.61,2.5,9.09,2.5 s7.25-1.12,9.09-2.5c-1.54,1.76-3.33,2.73-4.9,3.27L28.61,32c0,0,4.45-0.02,7.39-3.38C35.5,20.43,32.59,16.24,32.59,16.24z M20,27 c-1.1,0-2-1.12-2-2.5s0.9-2.5,2-2.5s2,1.12,2,2.5S21.1,27,20,27z M27,27c-1.1,0-2-1.12-2-2.5s0.9-2.5,2-2.5s2,1.12,2,2.5 S28.1,27,27,27z"/></svg><use xlink:href="https://discord.gg/gpWswqYc"></use></svg></a></li>
+      <li class="ms-3"><a class="text-muted" target="_blank" href="https://vk.com/explosion_mc"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48px" height="48px"><path fill="#1976d2" d="M24,4C13,4,4,13,4,24s9,20,20,20s20-9,20-20S35,4,24,4z"/><path fill="#fff" d="M25.2,33.2c-9,0-14.1-6.1-14.3-16.4h4.5c0.1,7.5,3.5,10.7,6.1,11.3V16.8h4.2v6.5c2.6-0.3,5.3-3.2,6.2-6.5h4.2 c-0.7,4-3.7,7-5.8,8.2c2.1,1,5.5,3.6,6.7,8.2h-4.7c-1-3.1-3.5-5.5-6.8-5.9v5.9H25.2z"/></svg><use xlink:href="https://vk.com/explosion_mc"></use></svg></a></li>
+    </ul>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+</body>
+</html>
