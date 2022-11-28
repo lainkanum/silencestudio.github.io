@@ -143,8 +143,28 @@
       </div>
     </div>
     <div class="buy">
-      <form action="https://www.donationalerts.com/" method="get" target="_blank">
-        <button id="buy" class="btn btn-light" type="submit"> <span class="btn-text">Купить проходку</span></button>
+      <button type="button" id="buy" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <span class="btn-text">Выбрать проходку</span>
+      </button>
+      
+      <!-- Modal -->
+      <div class="modal justify-content-center align-items-center fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content" style="background-color: #111414; color: rgba(255, 255, 255, 0.55);">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" style="color: #fff;" id="exampleModalLabel">Выберите проходку</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <a class="nav-link dropdown-toggle" style="font-size: 24px;" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Проходка</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" target="_blank" href="https://www.donationalerts.com/?">На 1 месяц: 199руб</a></li>
+                <li><a class="dropdown-item" target="_blank" href="https://www.donationalerts.com/?">На сезон: 499 руб</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
       </form>
     </div>
   </main>

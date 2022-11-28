@@ -237,7 +237,7 @@ h2 {
         padding: 96px 64px;
     }
 }
-.buy .btn {
+.buy .btn-light {
     height: 100px;
     width: 400px;
     font-weight: 900;
@@ -260,4 +260,14 @@ h2 {
 }
 .dropdown-item:hover {
     background-color: #3c3f42;
+}
+.modal-header {
+    border-bottom: none;
+}
+.btn-close {
+    background-color: #fff;
+}
+.modal .dropdown-toggle {
+    width: 140px;
+    height: 50px;
 }
