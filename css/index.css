@@ -156,7 +156,7 @@ body {
     font-family: 'minecraft';
 }
 footer {
-    margin: 0px 15px 0 15px;
+    margin-top: 0;
 }
 .markdown_paragraph {
     margin-top: 0;
@@ -222,8 +222,7 @@ h2 {
 }
 .buy {
     color: #fff;
-    background-image: url(../assets/background.webp);
-    background-color: #1d72f2;
+    background: linear-gradient(90deg, rgba(0,134,255,1) 1%, rgba(0,255,239,1) 85%);
     width: 100%;
     max-width: 1920px;
     display: flex;
