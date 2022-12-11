@@ -79,7 +79,6 @@ p {
 .content {
     display: flex;
     justify-content: center;
-    background: linear-gradient(180deg,#186ef0,#429ae7);
 }
 a:link { 
     text-decoration: none;
