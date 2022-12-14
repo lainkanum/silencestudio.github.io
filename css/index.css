@@ -12,6 +12,15 @@
 	font-style: normal;
 }
 body {
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll; 
+}
+  
+body::-webkit-scrollbar {
+    display: none;
+}
+body {
     background-color: #111414;
     color: #e1e5eb;
 }
@@ -67,6 +76,8 @@ p {
 .inner {
     max-width: 640px;
     margin: 128px 0;
+    z-index: 100;
+    position: absolute;
 }
 .banner img {
     pointer-events: none;
@@ -82,9 +93,6 @@ p {
 }
 a:link { 
     text-decoration: none;
-}
-body {
-    background-color: #111414;
 }
 .logo {
     margin-right: 10px;
@@ -103,7 +111,7 @@ body {
 }
 @media only screen and (max-width: 1264px) {
     body._mobile_auth .container {
-    padding-bottom: 83px;
+    padding-bottom: 83px;   
     }
 }
 .wiki {
@@ -155,7 +163,7 @@ body {
     font-family: 'minecraft';
 }
 footer {
-    margin-top: 0;
+    margin-top: 1px;
 }
 .markdown_paragraph {
     margin-top: 0;
@@ -221,7 +229,6 @@ h2 {
 }
 .buy {
     color: #fff;
-    background: linear-gradient(90deg, rgba(0,134,255,1) 1%, rgba(0,255,239,1) 85%);
     width: 100%;
     max-width: 1920px;
     display: flex;
@@ -236,18 +243,16 @@ h2 {
     }
 }
 .buy .btn-light {
-    height: 100px;
-    width: 400px;
+    height: 80px;
     font-weight: 900;
+    width: 89%;
+    font-size: 25px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
 }
 .btn-text {
     font-size: 30px;
-}
-.buy-btn {
-    color: #fff;
-}
-.buy-btn:hover {
-    color: rgb(45, 45, 45);
 }
 .dropdown-menu {
     background: #111414;
@@ -259,13 +264,18 @@ h2 {
 .dropdown-item:hover {
     background-color: #3c3f42;
 }
-.modal-header {
-    border-bottom: none;
-}
 .btn-close {
     background-color: #fff;
 }
-.modal .dropdown-toggle {
-    width: 140px;
-    height: 50px;
+.buy-card {
+    background: linear-gradient(90deg, rgba(0,82,157,1) 1%, rgba(0,190,179,1) 85%);
+    margin: 5;
+    height: 400px;
+    width: 300px;
+    padding: 17px;
+    margin: 13px;
+    position: relative;
+}
+.buy {
+    height: 595px;
 }

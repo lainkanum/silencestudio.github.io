@@ -59,8 +59,8 @@
           <div class="buttons"><button class="btn btn-light"><a href="#about">О сервере</a></button><button class="btn"><a class="buy-btn" href="#buy">Проходка</a></button></div>
           <p class="text_banner">Лицензионный Java Edition 1.19.2</p>
         </div>
+        <img src="assets/banner.webp" alt="баннер">
       </div>
-      <img src="#" alt="баннер">
     </div>
     <div class="container main-content row row-cols-1 row-cols-md-1 row-cols-lg-2">
       <div class="col">
@@ -141,30 +141,27 @@
         </div>
       </div>
     </div>
-    <div class="buy">
-      <button type="button" id="buy" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
-        <span class="btn-text">Выбрать проходку</span>
-      </button>
-      
-      <!-- Modal -->
-      <div class="modal justify-content-center align-items-center fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content" style="background-color: #111414; color: rgba(255, 255, 255, 0.55);">
-            <div class="modal-header">
-              <h1 class="modal-title fs-5" style="color: #fff;" id="exampleModalLabel">Выберите проходку</h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <a class="nav-link dropdown-toggle" style="font-size: 24px;" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Проходка</a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" target="_blank" href="https://www.donationalerts.com/?">На 1 месяц: 99руб</a></li>
-                <li><a class="dropdown-item" target="_blank" href="https://www.donationalerts.com/?">На сезон: 349 руб</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
+    <div class="justify-content-around container buy row row-cols-4 row-cols-lg-4">
+      <div class="col buy-card rounded-3">
+        <h3>На месяц</h3>
+        <p class="buy-card-information">Покупая данный товар вы получаете доступ на сервер SiLand ровно на 30 дней.</p>
+        <button class="btn btn-light">Купить!</button>
       </div>
-      </form>
+      <div class="col buy-card rounded-3">
+        <h3>На 3 месяц</h3>
+        <p class="buy-card-information">Покупая данный товар вы получаете доступ на сервер SiLand ровно на 90 дней.</p>
+        <button class="btn btn-light">Купить!</button>
+      </div>
+      <div class="col buy-card rounded-3">
+        <h3>На сезон</h3>
+        <p class="buy-card-information">Покупая данный товар вы получаете доступ на сервер SiLand до конца первого сезона.</p>
+        <button class="btn btn-light">Купить!</button>
+      </div>
+      <div class="col buy-card rounded-3">
+        <h3>Спонсорская подписка</h3>
+        <p class="buy-card-information">Покупая данный товар вы получаете спонсорскую подписку на месяц, в нее входят такие команды как /hat,</p>
+        <button class="btn disabled btn-light">Скоро!</button>
+      </div>
     </div>
   </main>
   <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-2 border-top">
