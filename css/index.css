@@ -246,13 +246,10 @@ h2 {
     height: 80px;
     font-weight: 900;
     width: 89%;
-    font-size: 25px;
+    font-size: 23px;
     position: absolute;
     bottom: 0;
     margin-bottom: 10px;
-}
-.btn-text {
-    font-size: 30px;
 }
 .dropdown-menu {
     background: #111414;
@@ -270,12 +267,12 @@ h2 {
 .buy-card {
     background: linear-gradient(90deg, rgba(0,82,157,1) 1%, rgba(0,190,179,1) 85%);
     margin: 5;
-    height: 400px;
+    height: 440px;
     width: 300px;
     padding: 17px;
     margin: 13px;
     position: relative;
 }
 .buy {
-    height: 595px;
+    height: 535px;
 }
