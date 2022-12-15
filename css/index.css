@@ -231,16 +231,9 @@ h2 {
     color: #fff;
     width: 100%;
     max-width: 1920px;
-    display: flex;
     justify-content: center;
     align-items: center;
-    height: 200px;
-    margin-bottom: 0;
-}
-@media (max-width: 900px) {
-    .buy {
-        padding: 96px 64px;
-    }
+    margin: 30px 0 15px 0;
 }
 .buy .btn-light {
     height: 80px;
@@ -270,9 +263,6 @@ h2 {
     height: 440px;
     width: 300px;
     padding: 17px;
-    margin: 0 15px 0 15px;
+    margin: 10px 15px 0 15px;
     position: relative;
-}
-.buy {
-    height: 535px;
 }
