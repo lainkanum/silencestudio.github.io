@@ -270,7 +270,7 @@ h2 {
     height: 440px;
     width: 300px;
     padding: 17px;
-    margin: 13px;
+    margin: 0 15px 0 15px;
     position: relative;
 }
 .buy {
