@@ -10,7 +10,7 @@
 <title>SiLand</title>
 <meta name="description" content="SiLand - Отличный ванильный сервер.">
 <meta name="keywords" content="SiLand, SL, SilenceStudio, Fereden, RedAleRT, Фереден">
-<meta name="author" content="MrWels, Arkanum">
+<meta name="author" content="MrWels, Arkanum, Alexandor">
 <meta name="theme-color" content="#1d72f2">
 </head>
 <body>
@@ -44,7 +44,16 @@
                 <li><a class="dropdown-item" target="_blank" href="https://discord.gg/gzEyCEtmCt">Дискорд</a></li>
                 <li><a class="dropdown-item" target="_blank" href="https://vk.com/siland_mc">ВК</a></li>
               </ul>
-            </li>
+             </li>
+             {% if logged %}
+                <ul class="actions">
+                  <li><img class="rounded-circle avatar" src= {{avatarurl}} alt=""></li>
+                </ul>
+              {% else %}
+                <ul class=" d-flex align-items-center actions">
+                  <li><button class="btn btn-outline-success"><a style="color: #fff;" href="/login/">Войти</a></button></li>
+                </ul>
+              {% endif %}
           </ul>
         </div>
       </div>
@@ -146,17 +155,23 @@
       <div class="col buy-card rounded-3">
         <h3>На месяц</h3>
         <p class="buy-card-information">Покупая данный товар вы получаете доступ на сервер SiLand ровно на 30 дней.</p>
-        <button class="btn btn-light">Купить за 95руб!</button>
+        <button type="button" class="btn btn-light">
+          Купить за 85!
+        </button>
       </div>
       <div class="col buy-card rounded-3">
         <h3>На 3 месяца</h3>
         <p class="buy-card-information">Покупая данный товар вы получаете доступ на сервер SiLand ровно на 90 дней.</p>
-        <button class="btn btn-light">Купить за 195руб!</button>
+        <button type="button" class="btn btn-light">
+          Купить за 175!
+        </button>
       </div>
       <div class="col buy-card rounded-3">
         <h3>На сезон</h3>
         <p class="buy-card-information">Покупая данный товар вы получаете доступ на сервер SiLand до конца первого сезона.</p>
-        <button class="btn btn-light">Купить за 345руб!</button>
+        <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#3">
+          Купить за 310!
+        </button>
       </div>
       <div class="col buy-card rounded-3">
         <h3>Спонсорская подписка</h3>
@@ -171,7 +186,7 @@
       </a>
       <div class="row">
         <span class="mb-3 mb-md-0 text-muted">© 2022 Silence Studio</span>
-        <span class="vajno mb-3 mb-md-0 text">Сайт разработали: <a target="_blank" style="text-decoration: underline;" href="https://github.com/FrozenWelsor">MrWels</a> и <a style="text-decoration: underline;" target="_blank" href="https://github.com/lainkanum">Arkanum</a></span>
+        <span class="vajno mb-3 mb-md-0 text">Сайт разработали: <a style="text-decoration: underline;" target="_blank" href="https://github.com/FrozenWelsor">MrWels</a> , <a style="text-decoration: underline;" target="_blank" href="https://github.com/lainkanum">Arkanum</a> и Alexandor</span>
       </div>
     </div>
     <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
